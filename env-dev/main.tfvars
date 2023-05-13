@@ -6,5 +6,8 @@ parameters = [
     { name = "dev.frontend.payment_url", value = "http://payment-dev.devopsdude.cloud:8080/" },
     { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.devopsdude.cloud" },
     { name = "dev.catalogue.mongo", value = "mongo=true" },
-    { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb.devopsdude.cloud:27017/catalogue" }
+    { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb.devopsdude.cloud:27017/catalogue" },
+    { name = "dev.user.redis_host", value = "redis-dev.devopsdude.cloud" },
+    { name = "dev.user.catalogue_host", value = "catalogue-dev.devopsdude.cloud" },
+    { name = "dev.user.catalogue_port", value = "8080" }
 ]
