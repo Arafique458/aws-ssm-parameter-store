@@ -14,7 +14,10 @@ parameters = [
     { name = "dev.cart.redis_host", value = "redis-dev.devopsdude.cloud" },
     { name = "dev.cart.catalogue_port", value = "8080" },
     { name = "dev.shipping.cart_endpoint", value = "cart-dev.devopsdude.cloud:8080" },
-    { name = "dev.shipping.db_host", value = "mysql-dev.devopsdude.cloud" }
+    { name = "dev.shipping.db_host", value = "mysql-dev.devopsdude.cloud" },
+    { name = "dev.shipping.db_user", value = "root" },
+    { name = "dev.shipping.db_pass", value = "RoboShop@1" }
+
 
 ]
 
