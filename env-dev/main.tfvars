@@ -18,5 +18,3 @@ parameters = [
 
 ]
 
-Environment=CART_ENDPOINT=cart.devopsdude.cloud:8080
-Environment=DB_HOST=mysql.devopsdude.cloud
