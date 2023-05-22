@@ -21,9 +21,9 @@ parameters = [
     { name = "dev.payment.cart_port", value = "8080" },
     { name = "dev.payment.user_host", value = "user-dev.devopsdude.cloud" },
     { name = "dev.payment.user_port", value = "8080" },
-#    { name = "dev.payment.amqp_host", value = "rabbitmq-dev.devopsdude.cloud" },
-#    { name = "dev.payment.amqp_pass", value = "roboshop123" },
-#    { name = "dev.payment.amqp_user", value = "roboshop" }
+    { name = "dev.payment.amqp_host", value = "rabbitmq-dev.devopsdude.cloud" },
+    { name = "dev.payment.amqp_pass", value = "roboshop123" },
+    { name = "dev.payment.amqp_user", value = "roboshop" }
 
 ]
 
