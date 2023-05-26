@@ -12,6 +12,7 @@ resource "aws_ssm_parameter" "passwords" {
   count  = length(var.passwords)
   name   = var.passwords[count.index].name
   value  = var.passwords[count.index].value
+  overwrite = true # will over-write the existing parameter and add any more.
   type = "SecureString"
   key_id = "46fec639-a30b-4dcc-a7b0-c94cc0b7810f"
 }
