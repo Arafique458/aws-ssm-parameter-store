@@ -3,7 +3,7 @@ resource "aws_ssm_parameter" "parameters" {
   name = var.parameters[count.index].name
   value = var.parameters[count.index].value
   type = "String"
-  key_id = "801d82e5-19a3-4b80-88c6-5947b7b90508"
+  key_id = "a3cb9203-19b3-4920-8352-f3cc1e6f26c5"
   overwrite = true # will over-write the existing parameter and add any more.
 }
 
