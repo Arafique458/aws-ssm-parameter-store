@@ -4,6 +4,7 @@ parameters = [
   { name = "dev.frontend.user_url", value = "http://user-dev.devopsdude.cloud:8080/" },
   { name = "dev.frontend.shipping_url", value = "http://shipping-dev.devopsdude.cloud:8080/" },
   { name = "dev.frontend.payment_url", value = "http://payment-dev.devopsdude.cloud:8080/" },
+  { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.devopsdude.cloud" },
 ]
 
 
