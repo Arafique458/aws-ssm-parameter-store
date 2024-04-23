@@ -11,8 +11,8 @@ parameters = [
   { name = "dev.user.redis_host", value = "redis-dev.devopsdude.cloud" },
   { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.devopsdude.cloud:27017/users" },
   #{ name = "dev.user.mongo_endpoint", value = "mongodb-dev.devopsdude.cloud" },
-  { name = "dev.cart.catalogue_host", value = "catalogue-dev.devopsdude.cloud" },
   { name = "dev.cart.redis_host", value = "redis-dev.devopsdude.cloud" },
+  { name = "dev.cart.catalogue_host", value = "catalogue-dev.devopsdude.cloud" },
   { name = "dev.cart.catalogue_port", value = "8080" },
 ]
 
